@@ -1,1 +1,0 @@
-This repo contains files created as a part of developing server side of a web application using gin framework in golang.
