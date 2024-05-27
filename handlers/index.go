@@ -26,7 +26,6 @@ func Index(c *gin.Context) {
 			c.HTML(http.StatusOK, "index.html", name)
 		}
 	} else {
-		// c.HTML(http.StatusOK, "index.html", "Guest User")
 		c.Redirect(http.StatusFound, "/login")
 	}
 
